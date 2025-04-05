@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Forest {
+public class Cave {
     private ArrayList<Pokemon> pokemonList = new ArrayList<>();
 
     public void addPokemon(Pokemon pokemon) {
@@ -8,7 +8,7 @@ public class Forest {
     }
 
     public void showAllPokemon() {
-        System.out.println("\nPokémon i skoven:");
+        System.out.println("\nPokémon i grotten:");
         for (Pokemon p : pokemonList) {
             System.out.println(p);
         }
